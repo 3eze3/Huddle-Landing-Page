@@ -1,0 +1,17 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  /*Headings*/
+  --font-family-Poppins: 'Poppins', sans-serif;
+  --weigth: 400;
+  --weigth: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
