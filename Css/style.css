@@ -73,11 +73,19 @@
   box-shadow: 0rem .9rem 1rem .1rem rgba(0, 0, 0, 0.378);
   cursor: pointer;
   transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
 }
 
 .introduction__btnregister:hover {
   background-color: var(--soft-magenta);
   transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
 }
 
 .container__social {
@@ -102,12 +110,20 @@
   cursor: pointer;
   border-radius: 50%;
   transition: border .2s ease-in, color .25s ease-in-out;
+  -webkit-transition: border .2s ease-in, color .25s ease-in-out;
+  -moz-transition: border .2s ease-in, color .25s ease-in-out;
+  -ms-transition: border .2s ease-in, color .25s ease-in-out;
+  -o-transition: border .2s ease-in, color .25s ease-in-out;
 }
 
 .social__logo:hover {
   border: 1px solid var(--soft-magenta);
   color: var(--soft-magenta);
   transition: border .2s ease-in, color .25s ease-in-out;
+  -webkit-transition: border .2s ease-in, color .25s ease-in-out;
+  -moz-transition: border .2s ease-in, color .25s ease-in-out;
+  -ms-transition: border .2s ease-in, color .25s ease-in-out;
+  -o-transition: border .2s ease-in, color .25s ease-in-out;
 }
 
 @media screen and (max-width: 480px) {
