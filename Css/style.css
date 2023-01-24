@@ -69,7 +69,6 @@
   font-weight: var(--weigth-400);
   color: var(--violet);
   padding: 1rem 4.5rem;
-  border-radius: 2rem;
   box-shadow: 0rem .9rem 1rem .1rem rgba(0, 0, 0, 0.378);
   cursor: pointer;
   transition: background-color .2s ease-in-out;
@@ -77,6 +76,11 @@
   -moz-transition: background-color .2s ease-in-out;
   -ms-transition: background-color .2s ease-in-out;
   -o-transition: background-color .2s ease-in-out;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 
 .introduction__btnregister:hover {
@@ -102,12 +106,16 @@
   padding: 1rem;
   color: #fff;
   cursor: pointer;
-  border-radius: 50%;
   transition: borde .2s ease-in, color .25s ease-in-out;
   -webkit-transition: borde .2s ease-in, color .25s ease-in-out;
   -moz-transition: borde .2s ease-in, color .25s ease-in-out;
   -ms-transition: borde .2s ease-in, color .25s ease-in-out;
   -o-transition: borde .2s ease-in, color .25s ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .social__logo:hover {
