@@ -97,14 +97,17 @@
   display: flex;
   padding-bottom: 2rem;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.5rem;
 }
 
 .social__logo {
-  width: 2.85rem;
+  width: 3.15rem;
+  height: 3.15rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: solid #fff 1px;
-  padding: 1rem 1.06rem;
   color: #fff;
   cursor: pointer;
   transition: borde .2s ease-in, color .25s ease-in-out;
@@ -117,6 +120,10 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.social__wrapper {
+  width: 1.1rem;
 }
 
 .social__logo:hover {
