@@ -102,8 +102,9 @@
 }
 
 .social__logo {
+  width: 2.85rem;
   border: solid #fff 1px;
-  padding: 1rem;
+  padding: 1rem 1.06rem;
   color: #fff;
   cursor: pointer;
   transition: borde .2s ease-in, color .25s ease-in-out;
